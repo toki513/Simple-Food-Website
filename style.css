@@ -19,3 +19,55 @@
 .food_wrapper h1{
     text-align: center;
 }
+.post{
+    display: inline-block;
+    margin-left: 4rem;
+    margin-bottom: .8rem;
+}
+.form-part .post-part{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .4rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem ;
+}
+
+.button-part{
+    display: block;
+    width: 16%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: .3rem;
+    margin-top: .7rem;
+    outline: none;
+    border: none;
+    background-color: paleturquoise;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.column{
+    float: left;
+    width: 32.33%;
+    padding: 5px;
+    margin-top: .9rem;
+    margin-left: .1rem;
+    margin-right: .6rem;
+}
+
+.row ::after{
+    content: "";
+    display: table;
+}
+@media screen and (max-width:700px){
+    .column{
+        width: 100%;
+        float: none;
+    }
+}
